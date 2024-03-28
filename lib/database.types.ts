@@ -40,6 +40,7 @@ export type Database = {
           email: string | null
           id: string
           introduce: string | null
+          name: string | null
         }
         Insert: {
           avatar_url?: string | null
